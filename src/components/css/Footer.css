@@ -1,0 +1,53 @@
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+
+a:hover {
+  color: #cc9b65;
+  transition: 0.1s;
+}
+
+.ft-title {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+/* Footer main */
+.footer {
+  color: #bbb;
+  line-height: 1.5;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+
+  background-color: #322c25;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.ft-col-1 {
+  padding: 20px;
+  min-width: 300px;
+}
+
+.ft-col-2 {
+  padding: 20px;
+  min-width: 300px;
+}
+
+.ft-col-3 {
+  padding: 20px;
+  min-width: 300px;
+}
+
+ul {
+  list-style: none;
+  color: white;
+  margin-left: -38px;
+  text-decoration: none;
+}
+li a {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,44 @@
+.hero-image {
+  width: 100%;
+  z-index: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*position: relative;
+    height: 100%;*/
+}
+
+/* Places the text in the center of the image */
+.hero-text {
+  /*position: fixed;
+    top: 50%;*/
+  position: absolute;
+  bottom: 30%;
+  padding-top: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 80%;
+  text-align: center;
+}
+button {
+  color: black;
+  background-color: #cc9b65;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 15px 0;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+button:hover {
+  background-color: #72401c;
+  text-decoration: none;
+  color: white;
+}
