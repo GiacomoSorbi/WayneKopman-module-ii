@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/wayneKopman-module-ii/static/css/main.1327cf45.chunk.css",
+    "main.js": "/wayneKopman-module-ii/static/js/main.ac04ba24.chunk.js",
+    "main.js.map": "/wayneKopman-module-ii/static/js/main.ac04ba24.chunk.js.map",
+    "runtime-main.js": "/wayneKopman-module-ii/static/js/runtime-main.c4e4784d.js",
+    "runtime-main.js.map": "/wayneKopman-module-ii/static/js/runtime-main.c4e4784d.js.map",
+    "static/js/2.916ec0fb.chunk.js": "/wayneKopman-module-ii/static/js/2.916ec0fb.chunk.js",
+    "static/js/2.916ec0fb.chunk.js.map": "/wayneKopman-module-ii/static/js/2.916ec0fb.chunk.js.map",
+    "index.html": "/wayneKopman-module-ii/index.html",
+    "precache-manifest.3ab8d04bd88adcdd44d3686676ed87b2.js": "/wayneKopman-module-ii/precache-manifest.3ab8d04bd88adcdd44d3686676ed87b2.js",
+    "service-worker.js": "/wayneKopman-module-ii/service-worker.js",
+    "static/css/main.1327cf45.chunk.css.map": "/wayneKopman-module-ii/static/css/main.1327cf45.chunk.css.map",
+    "static/js/2.916ec0fb.chunk.js.LICENSE.txt": "/wayneKopman-module-ii/static/js/2.916ec0fb.chunk.js.LICENSE.txt",
+    "static/media/About-Hero-Bean-Bush.jpg": "/wayneKopman-module-ii/static/media/About-Hero-Bean-Bush.09ac7095.jpg",
+    "static/media/About-us.png": "/wayneKopman-module-ii/static/media/About-us.d4b448ce.png",
+    "static/media/Coffee-Bags-Flags-Brazil.png": "/wayneKopman-module-ii/static/media/Coffee-Bags-Flags-Brazil.bd86e862.png",
+    "static/media/Coffee-Bags-Flags-Colombia.png": "/wayneKopman-module-ii/static/media/Coffee-Bags-Flags-Colombia.5ed1508c.png",
+    "static/media/Coffee-Bags-Flags-Ecuador.png": "/wayneKopman-module-ii/static/media/Coffee-Bags-Flags-Ecuador.e86334b0.png",
+    "static/media/Coffee-Bags-Flags-India.png": "/wayneKopman-module-ii/static/media/Coffee-Bags-Flags-India.ae542c23.png",
+    "static/media/Coffee-Bags-Flags-Kenya.png": "/wayneKopman-module-ii/static/media/Coffee-Bags-Flags-Kenya.43a4a4c1.png",
+    "static/media/Coffee-Bags-Flags-Peru.png": "/wayneKopman-module-ii/static/media/Coffee-Bags-Flags-Peru.e12cac09.png",
+    "static/media/No-Cofee-mug.jpg": "/wayneKopman-module-ii/static/media/No-Cofee-mug.6cefa761.jpg",
+    "static/media/SocietyCoffee-Logo-Web.svg": "/wayneKopman-module-ii/static/media/SocietyCoffee-Logo-Web.10e65949.svg",
+    "static/media/bars-solid.svg": "/wayneKopman-module-ii/static/media/bars-solid.b3f49afd.svg",
+    "static/media/great-coffee-bean-Society-Coffee.jpg": "/wayneKopman-module-ii/static/media/great-coffee-bean-Society-Coffee.2c42a0ea.jpg",
+    "static/media/shopping-cart-solid.svg": "/wayneKopman-module-ii/static/media/shopping-cart-solid.8bf1af37.svg",
+    "static/media/times-solid.svg": "/wayneKopman-module-ii/static/media/times-solid.2c5552a1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4e4784d.js",
+    "static/js/2.916ec0fb.chunk.js",
+    "static/css/main.1327cf45.chunk.css",
+    "static/js/main.ac04ba24.chunk.js"
+  ]
+}
