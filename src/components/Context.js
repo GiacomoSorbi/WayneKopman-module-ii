@@ -29,7 +29,7 @@ export class DataProvider extends Component {
         description: "• Hazelnut • Cedar • Cherry",
         content:
           "Robusta cappuccino, sugar, single origin mazagran redeye milk siphon. Siphon, robusta crema extraction variety con panna whipped. Milk strong cinnamon at froth barista cup siphon. Skinny, bar single shot doppio, black, java, rich sugar bar grounds single origin. Frappuccino, cinnamon mocha as latte grounds caramelization half and half froth cappuccino. Viennese, body, latte roast that breve black. Aromatic medium aftertaste percolator skinny, id cappuccino con panna crema kopi-luwak plunger pot con panna. Carajillo mug to go doppio, sugar, a dark, fair trade as steamed cinnamon macchiato.",
-        price: 6.95,
+        price: 7.95,
         colors: ["red", "black", "crimson", "teal"],
         count: 1,
       },
@@ -41,7 +41,6 @@ export class DataProvider extends Component {
         content:
           "Robusta cappuccino, sugar, single origin mazagran redeye milk siphon. Siphon, robusta crema extraction variety con panna whipped. Milk strong cinnamon at froth barista cup siphon. Skinny, bar single shot doppio, black, java, rich sugar bar grounds single origin. Frappuccino, cinnamon mocha as latte grounds caramelization half and half froth cappuccino. Viennese, body, latte roast that breve black. Aromatic medium aftertaste percolator skinny, id cappuccino con panna crema kopi-luwak plunger pot con panna. Carajillo mug to go doppio, sugar, a dark, fair trade as steamed cinnamon macchiato.",
         price: 6.95,
-        colors: ["red", "black", "crimson", "teal"],
         count: 1,
       },
       {
@@ -51,8 +50,7 @@ export class DataProvider extends Component {
         description: "• Dry • Full bodied • Smokey",
         content:
           "Robusta cappuccino, sugar, single origin mazagran redeye milk siphon. Siphon, robusta crema extraction variety con panna whipped. Milk strong cinnamon at froth barista cup siphon. Skinny, bar single shot doppio, black, java, rich sugar bar grounds single origin. Frappuccino, cinnamon mocha as latte grounds caramelization half and half froth cappuccino. Viennese, body, latte roast that breve black. Aromatic medium aftertaste percolator skinny, id cappuccino con panna crema kopi-luwak plunger pot con panna. Carajillo mug to go doppio, sugar, a dark, fair trade as steamed cinnamon macchiato.",
-        price: 6.95,
-        colors: ["red", "black", "crimson", "teal"],
+        price: 8.95,
         count: 1,
       },
       {
@@ -62,8 +60,7 @@ export class DataProvider extends Component {
         description: "• Cherry • Acidic • Earthy",
         content:
           "Robusta cappuccino, sugar, single origin mazagran redeye milk siphon. Siphon, robusta crema extraction variety con panna whipped. Milk strong cinnamon at froth barista cup siphon. Skinny, bar single shot doppio, black, java, rich sugar bar grounds single origin. Frappuccino, cinnamon mocha as latte grounds caramelization half and half froth cappuccino. Viennese, body, latte roast that breve black. Aromatic medium aftertaste percolator skinny, id cappuccino con panna crema kopi-luwak plunger pot con panna. Carajillo mug to go doppio, sugar, a dark, fair trade as steamed cinnamon macchiato.",
-        price: 6.95,
-        colors: ["red", "black", "crimson", "teal"],
+        price: 7.95,
         count: 1,
       },
       {
@@ -74,7 +71,6 @@ export class DataProvider extends Component {
         content:
           "Robusta cappuccino, sugar, single origin mazagran redeye milk siphon. Siphon, robusta crema extraction variety con panna whipped. Milk strong cinnamon at froth barista cup siphon. Skinny, bar single shot doppio, black, java, rich sugar bar grounds single origin. Frappuccino, cinnamon mocha as latte grounds caramelization half and half froth cappuccino. Viennese, body, latte roast that breve black. Aromatic medium aftertaste percolator skinny, id cappuccino con panna crema kopi-luwak plunger pot con panna. Carajillo mug to go doppio, sugar, a dark, fair trade as steamed cinnamon macchiato.",
         price: 6.95,
-        colors: ["red", "black", "crimson", "teal"],
         count: 1,
       },
     ],
