@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/WayneKopman-module-ii/static/css/main.1327cf45.chunk.css",
-    "main.js": "/WayneKopman-module-ii/static/js/main.6780109a.chunk.js",
-    "main.js.map": "/WayneKopman-module-ii/static/js/main.6780109a.chunk.js.map",
+    "main.js": "/WayneKopman-module-ii/static/js/main.ed139fe1.chunk.js",
+    "main.js.map": "/WayneKopman-module-ii/static/js/main.ed139fe1.chunk.js.map",
     "runtime-main.js": "/WayneKopman-module-ii/static/js/runtime-main.0ab055a9.js",
     "runtime-main.js.map": "/WayneKopman-module-ii/static/js/runtime-main.0ab055a9.js.map",
-    "static/js/2.798ce9a3.chunk.js": "/WayneKopman-module-ii/static/js/2.798ce9a3.chunk.js",
-    "static/js/2.798ce9a3.chunk.js.map": "/WayneKopman-module-ii/static/js/2.798ce9a3.chunk.js.map",
+    "static/js/2.916ec0fb.chunk.js": "/WayneKopman-module-ii/static/js/2.916ec0fb.chunk.js",
+    "static/js/2.916ec0fb.chunk.js.map": "/WayneKopman-module-ii/static/js/2.916ec0fb.chunk.js.map",
     "index.html": "/WayneKopman-module-ii/index.html",
-    "precache-manifest.666fc82b46a39aeff584f41a254f5bd6.js": "/WayneKopman-module-ii/precache-manifest.666fc82b46a39aeff584f41a254f5bd6.js",
+    "precache-manifest.b7739f82d08f29c24aa4829815052ebb.js": "/WayneKopman-module-ii/precache-manifest.b7739f82d08f29c24aa4829815052ebb.js",
     "service-worker.js": "/WayneKopman-module-ii/service-worker.js",
     "static/css/main.1327cf45.chunk.css.map": "/WayneKopman-module-ii/static/css/main.1327cf45.chunk.css.map",
-    "static/js/2.798ce9a3.chunk.js.LICENSE.txt": "/WayneKopman-module-ii/static/js/2.798ce9a3.chunk.js.LICENSE.txt",
+    "static/js/2.916ec0fb.chunk.js.LICENSE.txt": "/WayneKopman-module-ii/static/js/2.916ec0fb.chunk.js.LICENSE.txt",
     "static/media/About-Hero-Bean-Bush.jpg": "/WayneKopman-module-ii/static/media/About-Hero-Bean-Bush.09ac7095.jpg",
     "static/media/About-us.png": "/WayneKopman-module-ii/static/media/About-us.d4b448ce.png",
     "static/media/Coffee-Bags-Flags-Brazil.png": "/WayneKopman-module-ii/static/media/Coffee-Bags-Flags-Brazil.bd86e862.png",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0ab055a9.js",
-    "static/js/2.798ce9a3.chunk.js",
+    "static/js/2.916ec0fb.chunk.js",
     "static/css/main.1327cf45.chunk.css",
-    "static/js/main.6780109a.chunk.js"
+    "static/js/main.ed139fe1.chunk.js"
   ]
 }
