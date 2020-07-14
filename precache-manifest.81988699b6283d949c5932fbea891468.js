@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c713ce40eb593a4cf756d16d37d00b8",
+    "revision": "f0bc8c1526d80c6a5fdf3ed82400dcb5",
     "url": "/wayneKopman-module-ii/index.html"
   },
   {
-    "revision": "9f6551e19a67dd75b4ec",
+    "revision": "7f1e29b9359945494015",
     "url": "/wayneKopman-module-ii/static/css/main.1327cf45.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wayneKopman-module-ii/static/js/2.916ec0fb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9f6551e19a67dd75b4ec",
-    "url": "/wayneKopman-module-ii/static/js/main.ac04ba24.chunk.js"
+    "revision": "7f1e29b9359945494015",
+    "url": "/wayneKopman-module-ii/static/js/main.e08e2de4.chunk.js"
   },
   {
     "revision": "471f81ac8d027368fb03",
