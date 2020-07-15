@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/WayneKopman-module-ii/static/css/main.1327cf45.chunk.css",
-    "main.js": "/WayneKopman-module-ii/static/js/main.f93a3f5d.chunk.js",
-    "main.js.map": "/WayneKopman-module-ii/static/js/main.f93a3f5d.chunk.js.map",
+    "main.js": "/WayneKopman-module-ii/static/js/main.d70a4648.chunk.js",
+    "main.js.map": "/WayneKopman-module-ii/static/js/main.d70a4648.chunk.js.map",
     "runtime-main.js": "/WayneKopman-module-ii/static/js/runtime-main.0ab055a9.js",
     "runtime-main.js.map": "/WayneKopman-module-ii/static/js/runtime-main.0ab055a9.js.map",
     "static/js/2.0861119c.chunk.js": "/WayneKopman-module-ii/static/js/2.0861119c.chunk.js",
     "static/js/2.0861119c.chunk.js.map": "/WayneKopman-module-ii/static/js/2.0861119c.chunk.js.map",
     "index.html": "/WayneKopman-module-ii/index.html",
-    "precache-manifest.5c7f93d6b65be2853a8e08a0283617ba.js": "/WayneKopman-module-ii/precache-manifest.5c7f93d6b65be2853a8e08a0283617ba.js",
+    "precache-manifest.4c1d998391c66fd91ffbc599d9007890.js": "/WayneKopman-module-ii/precache-manifest.4c1d998391c66fd91ffbc599d9007890.js",
     "service-worker.js": "/WayneKopman-module-ii/service-worker.js",
     "static/css/main.1327cf45.chunk.css.map": "/WayneKopman-module-ii/static/css/main.1327cf45.chunk.css.map",
     "static/js/2.0861119c.chunk.js.LICENSE.txt": "/WayneKopman-module-ii/static/js/2.0861119c.chunk.js.LICENSE.txt",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.0ab055a9.js",
     "static/js/2.0861119c.chunk.js",
     "static/css/main.1327cf45.chunk.css",
-    "static/js/main.f93a3f5d.chunk.js"
+    "static/js/main.d70a4648.chunk.js"
   ]
 }
