@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "43e2b2a0709669d561ab10c883ab4a2d",
+    "revision": "5c43d7f828a359930f1435ab6734f613",
     "url": "/WayneKopman-module-ii/index.html"
   },
   {
-    "revision": "be3e5a8692cc9721ce9c",
+    "revision": "c38bcc7f0dc660db0af8",
     "url": "/WayneKopman-module-ii/static/css/main.fc6921a9.chunk.css"
   },
   {
-    "revision": "dc8d265d796cf3759ace",
-    "url": "/WayneKopman-module-ii/static/js/2.798ce9a3.chunk.js"
+    "revision": "c9ef85ac74f8cea51dc8",
+    "url": "/WayneKopman-module-ii/static/js/2.1ff70dcd.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/WayneKopman-module-ii/static/js/2.798ce9a3.chunk.js.LICENSE.txt"
+    "url": "/WayneKopman-module-ii/static/js/2.1ff70dcd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "be3e5a8692cc9721ce9c",
-    "url": "/WayneKopman-module-ii/static/js/main.92a512e6.chunk.js"
+    "revision": "c38bcc7f0dc660db0af8",
+    "url": "/WayneKopman-module-ii/static/js/main.99e97ea6.chunk.js"
   },
   {
-    "revision": "54d1a13acb6f46e661a6",
-    "url": "/WayneKopman-module-ii/static/js/runtime-main.0ab055a9.js"
+    "revision": "6bf1f7047d3d2f109153",
+    "url": "/WayneKopman-module-ii/static/js/runtime-main.d0c9eeda.js"
   },
   {
     "revision": "09ac7095a22beadb2744304e6dd4971c",
