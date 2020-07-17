@@ -37,7 +37,7 @@ export class Details extends Component {
             <img src={item.src} alt="" />
             <div className="box">
               <div className="row">
-                <h2 textAlign="left">{item.title}</h2>
+                <h3>{item.title}</h3>
                 <span>£{item.price}</span>
                 <p>{item.description}</p>
                 <p>{item.content}</p>

@@ -9,6 +9,7 @@ export class Products extends Component {
   render() {
     const { products } = this.context;
     return (
+      //the map function finds the product in the array based on its id
       <div id="product">
         {products.map((product) => (
           <div className="card" key={product._id}>
@@ -16,9 +17,9 @@ export class Products extends Component {
               <img src={product.src} alt="" />
             </Link>
             <div className="content">
-              <h3>
+              <h4>
                 <Link to={`/product/${product._id}`}>{product.title}</Link>
-              </h3>
+              </h4>
               <span>£{product.price}</span>
               <p>{product.description}</p>
               <button onClick={() => this.context.addCart(product._id)}>

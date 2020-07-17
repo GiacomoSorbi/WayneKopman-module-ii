@@ -8,6 +8,7 @@
   margin: 0 auto;
   padding: 15px 10px;
 }
+
 .details img {
   max-width: auto;
   min-width: 290px;
@@ -16,15 +17,15 @@
   object-fit: cover;
   margin: 25px;
 }
+
 .details .box {
   max-width: 600px;
   min-width: 290px;
   margin: 10px;
   padding: 10px;
 }
+
 .box .row {
-  /*display: flex;
-  justify-content: space-between;*/
   margin-bottom: 15px;
 }
 
@@ -34,20 +35,15 @@
 }
 
 .box .row span {
-  color: crimson;
+  color: #090704;
+  font-weight: 800;
+  font-size: 20px;
 }
+
 .box p {
   line-height: 1.5;
   margin: 15px 0;
 }
-/*.cart {
-  background: #333;
-  color: white;
-  text-decoration: none;
-  padding: 20px 20px;
-  display: inline-block;
-  border-radius: 5px;
-}*/
 
 .breadcrumb a {
   display: flex;

@@ -14,7 +14,6 @@ a:hover {
 }
 
 /* Footer wrapper */
-
 .footer-wrapper {
   height: auto;
 }
@@ -26,7 +25,6 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
   background-color: #322c25;
   margin-top: 50px;
 }
@@ -52,6 +50,7 @@ ul {
   margin-left: -38px;
   text-decoration: none;
 }
+
 li a {
   color: white;
   text-decoration: none;
@@ -61,8 +60,14 @@ li a {
   border-radius: 5px;
   border: 1px black solid;
   height: 30px;
+  width: 200px;
 }
+
 .subscribe-btn {
   border-radius: 5px;
   height: 30px;
+  background-color: #cc9b65;
+  border: none;
+  margin-left: 5px;
+  width: 100px;
 }

@@ -1,19 +1,21 @@
 import React, { Component } from "react";
-import Menu from "./svg/bars-solid.svg";
-import Cart from "./svg/shopping-cart-solid.svg";
-import Close from "./svg/times-solid.svg";
-import Logo from "./svg/SocietyCoffee-Logo-Web.svg";
 import { Link } from "react-router-dom";
 import "./css/Header.css";
 import { DataContext } from "./Context";
 
+//imports images used in the nan
+import Menu from "./svg/bars-solid.svg";
+import Cart from "./svg/shopping-cart-solid.svg";
+import Close from "./svg/times-solid.svg";
+import Logo from "./svg/SocietyCoffee-Logo-Web.svg";
+
 export class Header extends Component {
   static contextType = DataContext;
-
+  //sets the responsive menu state to false
   state = {
     toggle: false,
   };
-
+  //toggles the responsive menu
   menuToggle = () => {
     this.setState({ toggle: !this.state.toggle });
   };
@@ -21,7 +23,7 @@ export class Header extends Component {
   render() {
     const { toggle } = this.state;
     const { cart } = this.context;
-
+    //returns the Top Nav
     return (
       <header>
         <div className="menu" onClick={this.menuToggle}>

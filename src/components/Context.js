@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+
+//imports all the product images
 import India from "./product-images/Coffee-Bags-Flags-India.png";
 import Brazil from "./product-images/Coffee-Bags-Flags-Brazil.png";
 import Ecuador from "./product-images/Coffee-Bags-Flags-Ecuador.png";
@@ -6,10 +8,13 @@ import Peru from "./product-images/Coffee-Bags-Flags-Peru.png";
 import Kenya from "./product-images/Coffee-Bags-Flags-Kenya.png";
 import Colombia from "./product-images/Coffee-Bags-Flags-Colombia.png";
 
+//Creates context for the site enabling values to be shared across the site
 export const DataContext = React.createContext();
 
+//The will provide data to the rest site
 export class DataProvider extends Component {
   state = {
+    //The products and details sit within this array and can be accessed by the rest of the site
     products: [
       {
         _id: "1",
@@ -19,7 +24,6 @@ export class DataProvider extends Component {
         content:
           "Robusta cappuccino, sugar, single origin mazagran redeye milk siphon. Siphon, robusta crema extraction variety con panna whipped. Milk strong cinnamon at froth barista cup siphon. Skinny, bar single shot doppio, black, java, rich sugar bar grounds single origin. Frappuccino, cinnamon mocha as latte grounds caramelization half and half froth cappuccino. Viennese, body, latte roast that breve black. Aromatic medium aftertaste percolator skinny, id cappuccino con panna crema kopi-luwak plunger pot con panna. Carajillo mug to go doppio, sugar, a dark, fair trade as steamed cinnamon macchiato.",
         price: 6.95,
-        colors: ["red", "black", "crimson", "teal"],
         count: 1,
       },
       {
@@ -30,7 +34,6 @@ export class DataProvider extends Component {
         content:
           "Robusta cappuccino, sugar, single origin mazagran redeye milk siphon. Siphon, robusta crema extraction variety con panna whipped. Milk strong cinnamon at froth barista cup siphon. Skinny, bar single shot doppio, black, java, rich sugar bar grounds single origin. Frappuccino, cinnamon mocha as latte grounds caramelization half and half froth cappuccino. Viennese, body, latte roast that breve black. Aromatic medium aftertaste percolator skinny, id cappuccino con panna crema kopi-luwak plunger pot con panna. Carajillo mug to go doppio, sugar, a dark, fair trade as steamed cinnamon macchiato.",
         price: 7.95,
-        colors: ["red", "black", "crimson", "teal"],
         count: 1,
       },
       {
@@ -77,7 +80,7 @@ export class DataProvider extends Component {
     cart: [],
     total: 0,
   };
-
+  //This is the add to cart function and adds items to cart by their id. It will also notify users if the item is already in the cart.
   addCart = (id) => {
     const { products, cart } = this.state;
     const check = cart.every((item) => {
@@ -93,7 +96,7 @@ export class DataProvider extends Component {
       alert("This product is already in your cart!");
     }
   };
-
+  //This function decreases the quantity of an item in the cart
   reduction = (id) => {
     const { cart } = this.state;
     cart.forEach((item) => {
@@ -104,7 +107,7 @@ export class DataProvider extends Component {
     this.setState({ cart: cart });
     this.getTotal();
   };
-
+  //This function increases the quantity of an item in the cart
   increase = (id) => {
     const { cart } = this.state;
     cart.forEach((item) => {
@@ -115,7 +118,7 @@ export class DataProvider extends Component {
     this.setState({ cart: cart });
     this.getTotal();
   };
-
+  //This function removes the item from the cart and renders a confirmation message
   removeProduct = (id) => {
     if (window.confirm("Do you want to remove this item?")) {
       const { cart } = this.state;
@@ -128,7 +131,7 @@ export class DataProvider extends Component {
       this.getTotal();
     }
   };
-
+  //This calcualtes the total in the cart
   getTotal = () => {
     const { cart } = this.state;
     const res = cart.reduce((prev, item) => {
@@ -136,7 +139,7 @@ export class DataProvider extends Component {
     }, 0);
     this.setState({ total: res });
   };
-
+  //Stores cart details locally
   componentDidUpdate() {
     localStorage.setItem("dataCart", JSON.stringify(this.state.cart));
     localStorage.setItem("dataTotal", JSON.stringify(this.state.total));
@@ -156,7 +159,7 @@ export class DataProvider extends Component {
   render() {
     const { products, cart, total } = this.state;
     const { addCart, reduction, increase, removeProduct, getTotal } = this;
-
+    //Returns all the cart functionality
     return (
       <DataContext.Provider
         value={{

@@ -6,29 +6,32 @@
 
 section .cart {
   position: relative;
-  /*border: 1px solid #ccc;
-  display: flex;*/
 }
+
 .amount span {
-  color: crimson;
+  color: #322b25;
   padding: 0 20px;
 }
+
 .amount .count {
   width: 40px;
   height: 30px;
-  border: 1px solid #555;
+  color: #322b25;
+  border: 1px solid #322b25;
   outline: none;
   background: transparent;
   cursor: pointer;
 }
+
 .amount .count:hover {
-  color: #555;
+  border: 1px solid #72401b;
+  color: #72401b;
 }
+
 .delete {
-  /*position: relative;*/
   top: 0;
   right: 5px;
-  color: crimson;
+  color: red;
   cursor: pointer;
   font-weight: 900;
   float: left;
@@ -46,9 +49,10 @@ section .cart {
   padding: 15px 10px;
   padding-bottom: 150px;
 }
+
 .total a {
   text-decoration: none;
-  background: black;
+  background: #090704;
   border-radius: 5px;
   color: white;
   text-transform: uppercase;
@@ -58,9 +62,12 @@ section .cart {
   text-align: center;
   flex-wrap: wrap;
 }
+
 .total h3 {
-  color: crimson;
+  color: #090704;
+  font-size: 24px;
 }
+
 .cart-img {
   height: 250px;
 }

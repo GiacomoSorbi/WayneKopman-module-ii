@@ -9,6 +9,7 @@ const Directory = (props) => {
       <div className="wrap">
         <div
           className="item"
+          alt="Shop-coffee"
           style={{
             backgroundImage: `url(${ShopCoffee})`,
           }}

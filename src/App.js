@@ -12,7 +12,6 @@ import { DataProvider } from "./components/Context";
 //Test
 
 //This function exports the various components that make up the website. This includes the Header, section or body and the Footer
-
 function App(props) {
   return (
     <Router basename={process.env.PUBLIC_URL}>

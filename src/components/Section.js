@@ -1,7 +1,9 @@
 import React from "react";
+import { Route, Switch } from "react-router-dom";
+
+//imports the various sections or pages to the section
 import Products from "./section/Products";
 import Details from "./section/Details";
-import { Route, Switch } from "react-router-dom";
 import Cart from "./section/Cart";
 import Payment from "./section/Payment";
 import Homepage from "./section/Homepage";
@@ -9,6 +11,7 @@ import About from "./section/About";
 
 function Section(props) {
   return (
+    // Declares the page routes
     <Switch>
       <section>
         <Route path="/" component={Homepage} exact />

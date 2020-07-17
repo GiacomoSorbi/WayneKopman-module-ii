@@ -4,15 +4,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  /*position: relative;
-    height: 100%;*/
 }
 
 /* Places the text in the center of the image */
 .hero-text {
-  /*position: fixed;
-    top: 50%;*/
   position: absolute;
   bottom: 30%;
   padding-top: 30px;
