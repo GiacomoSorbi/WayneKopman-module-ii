@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import Hero from "./../assets/About-Hero-Bean-Bush.jpg";
+import Hero from "./../../assets/About-Hero-Bean-Bush.jpg";
 
 const AboutHero = (props) => {
   return (

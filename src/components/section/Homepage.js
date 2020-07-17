@@ -3,19 +3,18 @@ import "../css/Homepage.css";
 import { Link } from "react-router-dom";
 import Colombia from "./../product-images/Coffee-Bags-Flags-Colombia.png";
 
-import HomepageHero from "../HomepageHero";
+import Directory from "./../Directory";
 
 const Homepage = (props) => {
   return (
     <section className="homepage">
-      <HomepageHero />
+      <Directory />
       <div className="about">
         <section class="container content-section">
           <h2 class="section-header">Coffee of the month</h2>
           <div class="about-us-page">
             <div class="about-us-main">
-              <img class="about-us-image" src={Colombia} alt="tast-colombia" />
-              <h3>Taste of Colombia</h3>
+              <img class="about-us-image" src={Colombia} alt="about-us" />
               <p class="about-us-text">
                 Robusta cappuccino, sugar, single origin mazagran redeye milk
                 siphon. Siphon, robusta crema extraction variety con panna

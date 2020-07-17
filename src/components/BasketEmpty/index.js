@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 import { Link } from "react-router-dom";
-import noCoffee from "./../assets/No-Cofee-mug.jpg";
+import noCoffee from "./../../assets/No-Cofee-mug.jpg";
 
 const BasketEmpty = (props) => {
   return (

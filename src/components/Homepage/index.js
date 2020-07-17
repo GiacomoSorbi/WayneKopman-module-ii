@@ -1,11 +1,11 @@
 import React from "react";
-import HomepageHero from "./../../components/HomepageHero";
+import Directory from "./../../components/Directory";
 import "./styles.css";
 
 const Homepage = (props) => {
   return (
     <section className="homepage">
-      <HomepageHero />
+      <Directory />
     </section>
   );
 };

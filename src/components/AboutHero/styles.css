@@ -35,6 +35,10 @@
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
+.primary-btn:hover {
+  background-color: #cc9a65;
+  color: black;
+}
 .item {
   background-repeat: no-repeat;
   justify-content: center;

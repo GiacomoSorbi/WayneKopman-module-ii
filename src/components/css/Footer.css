@@ -71,3 +71,8 @@ li a {
   margin-left: 5px;
   width: 100px;
 }
+
+.subscribe-btn:hover {
+  background-color: #72401b;
+  color: white;
+}

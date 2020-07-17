@@ -1,5 +1,5 @@
 import React from "react";
-import ShopCoffee from "./../assets/great-coffee-bean-Society-Coffee.jpg";
+import ShopCoffee from "./../../assets/great-coffee-bean-Society-Coffee.jpg";
 import "./styles.css";
 import { Link } from "react-router-dom";
 
@@ -9,7 +9,6 @@ const Directory = (props) => {
       <div className="wrap">
         <div
           className="item"
-          alt="Shop-coffee"
           style={{
             backgroundImage: `url(${ShopCoffee})`,
           }}

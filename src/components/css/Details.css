@@ -12,7 +12,6 @@
 .details img {
   max-width: auto;
   min-width: 290px;
-
   display: block;
   object-fit: cover;
   margin: 25px;
@@ -29,7 +28,7 @@
   margin-bottom: 15px;
 }
 
-.box .row h2 {
+.box .row h3 {
   text-transform: uppercase;
   letter-spacing: 2px;
 }

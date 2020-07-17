@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/About.css";
 import { Link } from "react-router-dom";
-import Aboutus from "./../assets/About-us.png";
+import Aboutus from "./../../assets/About-us.png";
 import AboutHero from "./../AboutHero";
 
 function About(props) {

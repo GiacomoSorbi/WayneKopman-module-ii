@@ -1,7 +1,13 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { DataContext } from "../Context";
 import "../css/Products.css";
+
+// Context is imported from Context.js
+import { DataContext } from "../Context";
+
+// The map function finds products and their details by ids in the product array
+// An onClick event uses addCart to add a product to the cart by their id
+// More info button uses RouteParams to open the product details component
 
 export class Products extends Component {
   static contextType = DataContext;
@@ -9,7 +15,6 @@ export class Products extends Component {
   render() {
     const { products } = this.context;
     return (
-      //the map function finds the product in the array based on its id
       <div id="product">
         {products.map((product) => (
           <div className="card" key={product._id}>

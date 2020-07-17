@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 
-//imports the various sections or pages to the section
+//imports sections or pages to the document
 import Products from "./section/Products";
 import Details from "./section/Details";
 import Cart from "./section/Cart";
@@ -9,9 +9,11 @@ import Payment from "./section/Payment";
 import Homepage from "./section/Homepage";
 import About from "./section/About";
 
+// Section function declares the routes and passes them through props
+// "/product/:id" uses a Route param to display relevant product by id
+
 function Section(props) {
   return (
-    // Declares the page routes
     <Switch>
       <section>
         <Route path="/" component={Homepage} exact />

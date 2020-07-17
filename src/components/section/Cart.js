@@ -5,25 +5,34 @@ import BasketEmpty from "./../BasketEmpty/index";
 
 import "../css/Cart.css";
 
+// ** Notes **
+// The Cart Component gets its context from context.js
+// componentDidMount gets the cart total from context
+// A conditional statement renders div if cart is empty
+// The map function get products from the product array
+// There are onClick events that reduce and increase quantity using by their id
+// An onClick event removes and increases quantity using their id
+// The Math.round function rounds the total to 2 decimal places
+
 export class Cart extends Component {
   static contextType = DataContext;
-  //Gets the cart total from context
+
   componentDidMount() {
     this.context.getTotal();
   }
-  //This renders if the cart is empty
+
   render() {
     const { cart, increase, reduction, removeProduct, total } = this.context;
     if (cart.length === 0) {
       return (
         <div className="basket">
           <h2 style={{ textAlign: "center" }}>Your Basket is Empty</h2>
+
           <BasketEmpty />
         </div>
       );
     } else {
       return (
-        //This renders if there is and item/s in the cart
         <>
           <div className="breadcrumb">
             <Link to="/product">◄ Back to shop</Link>
@@ -33,7 +42,7 @@ export class Cart extends Component {
               <img className="cart-img" src={item.src} alt="Coffee-Bag" />
               <div className="box">
                 <div className="row">
-                  <h4>{item.title}</h4>
+                  <h3>{item.title}</h3>
                   <span>
                     £{Math.round(item.price * item.count * 100) / 100}
                   </span>
@@ -70,7 +79,6 @@ export class Cart extends Component {
             <h3>Total: £{Math.round(total * 100) / 100}</h3>
           </div>
         </>
-        //The Math.round rounds the total to 2 decimal places
       );
     }
   }
