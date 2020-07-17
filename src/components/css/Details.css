@@ -49,11 +49,11 @@
   border-radius: 5px;
 }*/
 
-.breadcrumb {
+.breadcrumb a {
   display: flex;
   justify-content: center;
   padding: 20px;
   max-width: 1200px;
-  color: brown;
+  color: #72401b;
   text-decoration: none !important;
 }

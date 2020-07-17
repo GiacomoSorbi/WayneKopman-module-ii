@@ -15,15 +15,17 @@ import { DataProvider } from "./components/Context";
 
 function App(props) {
   return (
-    <DataProvider>
-      <Router basename={process.env.PUBLIC_URL}>
-        <Header />
-        <div className="app">
-          <Section />
-        </div>
-        <Footer />
-      </Router>
-    </DataProvider>
+    <Router basename={process.env.PUBLIC_URL}>
+      <DataProvider>
+        <React.StrictMode>
+          <Header />
+          <div className="app">
+            <Section />
+          </div>
+          <Footer />
+        </React.StrictMode>
+      </DataProvider>
+    </Router>
   );
 }
 

@@ -13,16 +13,21 @@ a:hover {
   margin-bottom: 5px;
 }
 
-/* Footer main */
+/* Footer wrapper */
+
+.footer-wrapper {
+  height: auto;
+}
+
 .footer {
   color: #bbb;
   line-height: 1.5;
   padding: 40px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 
   background-color: #322c25;
-  justify-content: center;
   margin-top: 50px;
 }
 
@@ -50,4 +55,14 @@ ul {
 li a {
   color: white;
   text-decoration: none;
+}
+
+.ft-input {
+  border-radius: 5px;
+  border: 1px black solid;
+  height: 30px;
+}
+.subscribe-btn {
+  border-radius: 5px;
+  height: 30px;
 }

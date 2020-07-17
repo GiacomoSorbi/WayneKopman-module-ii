@@ -22,23 +22,3 @@
   width: 80%;
   text-align: center;
 }
-button {
-  color: black;
-  background-color: #cc9b65;
-  border: none;
-  border-radius: 5px;
-  width: 250px;
-  height: 40px;
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin: 15px 0;
-  font-weight: 600;
-  text-decoration: none !important;
-}
-
-button:hover {
-  background-color: #72401c;
-  text-decoration: none;
-  color: white;
-}

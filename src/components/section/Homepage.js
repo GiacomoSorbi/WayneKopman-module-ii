@@ -16,15 +16,16 @@ const Homepage = (props) => {
             <div class="about-us-main">
               <img class="about-us-image" src={Colombia} alt="about-us" />
               <p class="about-us-text">
-                We're on a mission to provide coffee drinkers with the best,
-                expertly grown coffee beans from around the world while
-                spreading education too. With over 50+ countries producing
-                coffee, we travel the world exploring the best the world has to
-                offer. This is Coffee you can't find on the shelves of your
-                local store. We designed subscription packages to send you on a
-                flavor discovery. Buy a bag of your choice once off, or choose a
-                subscription where you will receive a surprise monthly blend .
-                Start your world tour of today
+                Robusta cappuccino, sugar, single origin mazagran redeye milk
+                siphon. Siphon, robusta crema extraction variety con panna
+                whipped. Milk strong cinnamon at froth barista cup siphon.
+                Skinny, bar single shot doppio, black, java, rich sugar bar
+                grounds single origin. Frappuccino, cinnamon mocha as latte
+                grounds caramelization half and half froth cappuccino. Viennese,
+                body, latte roast that breve black. Aromatic medium aftertaste
+                percolator skinny, id cappuccino con panna crema kopi-luwak
+                plunger pot con panna. Carajillo mug to go doppio, sugar, a
+                dark, fair trade as steamed cinnamon macchiato.
               </p>
               <a href="shop.html">
                 <Link to="/product">

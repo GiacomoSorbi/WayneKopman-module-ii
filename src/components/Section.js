@@ -9,16 +9,16 @@ import About from "./section/About";
 
 function Section(props) {
   return (
-    <section>
-      <Switch>
+    <Switch>
+      <section>
         <Route path="/" component={Homepage} exact />
         <Route path="/product" component={Products} exact />
         <Route path="/product/:id" component={Details} />
         <Route path="/cart" component={Cart} />
         <Route path="/payment" component={Payment} />
         <Route path="/about" component={About} />
-      </Switch>
-    </section>
+      </section>
+    </Switch>
   );
 }
 

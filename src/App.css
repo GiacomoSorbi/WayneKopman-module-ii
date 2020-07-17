@@ -15,6 +15,7 @@ body,
   height: 100%;
   overflow-x: hidden;
   overscroll-behavior-x: contain;
+  overscroll-behavior-y: contain;
 }
 
 *,
@@ -76,9 +77,37 @@ h5 {
   padding-right: 5px;
 }
 
-.section {
+p {
+  line-height: 1.5;
+
+  font-size: 18px;
+}
+
+button {
+  color: black;
+  background-color: #d5af83;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 15px 0;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+button:hover {
+  background-color: #cc9a65;
+  text-decoration: none;
+  color: black;
+}
+
+/*.section {
   flex: 1 0 auto;
 }
+
 .footer {
   flex-shrink: 0;
-}
+}*/
