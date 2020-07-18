@@ -3,12 +3,12 @@ import "../css/Homepage.css";
 import { Link } from "react-router-dom";
 import Colombia from "./../product-images/Coffee-Bags-Flags-Colombia.png";
 
-import Directory from "./../Directory";
+import HomepageHero from "./../HomepageHero";
 
 const Homepage = (props) => {
   return (
     <section className="homepage">
-      <Directory />
+      <HomepageHero />
       <div className="about">
         <section class="container content-section">
           <h2 class="section-header">Coffee of the month</h2>

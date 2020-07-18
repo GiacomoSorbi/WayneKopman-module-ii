@@ -3,7 +3,7 @@ import ShopCoffee from "./../../assets/great-coffee-bean-Society-Coffee.jpg";
 import "./styles.css";
 import { Link } from "react-router-dom";
 
-const Directory = (props) => {
+const HomepageHero = (props) => {
   return (
     <div className="directory">
       <div className="wrap">
@@ -27,4 +27,4 @@ const Directory = (props) => {
   );
 };
 
-export default Directory;
+export default HomepageHero;

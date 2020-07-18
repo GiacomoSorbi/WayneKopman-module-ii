@@ -3,6 +3,8 @@ import "./styles.css";
 import { Link } from "react-router-dom";
 import noCoffee from "./../../assets/No-Cofee-mug.jpg";
 
+// BasketEmpty renders when the basket is empty
+
 const BasketEmpty = (props) => {
   return (
     <div className="basket">
