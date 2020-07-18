@@ -1,7 +1,18 @@
 import React, { Component } from "react";
-import { DataContext } from "../Context";
 import { Link } from "react-router-dom";
 import "../css/Details.css";
+
+// Imports DataContext to the file
+import { DataContext } from "../Context";
+
+// Notes
+// The class component defines DataContext accessing the product array
+// getProduct uses Route params making the url dyanamic based on the product id
+// getProduct uses a match object passed through a prop
+// getProduct uses filtering to loops through the product array
+// getProduct returns a param route based on the product id
+// componentDidMount() is invoked immediately after a component is mounted (inserted into the tree)
+// Add to cart button uses addCart function to add products to cart based on id
 
 export class Details extends Component {
   static contextType = DataContext;

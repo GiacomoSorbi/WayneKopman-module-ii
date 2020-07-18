@@ -7,7 +7,7 @@ import { DataContext } from "../Context";
 
 // The map function finds products and their details by ids in the product array
 // An onClick event uses addCart to add a product to the cart by their id
-// More info button uses RouteParams to open the product details component
+// More info button uses RouteParams to open the product details component in a unique URL
 
 export class Products extends Component {
   static contextType = DataContext;

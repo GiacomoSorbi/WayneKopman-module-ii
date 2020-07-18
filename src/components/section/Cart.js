@@ -5,7 +5,7 @@ import BasketEmpty from "./../BasketEmpty/index";
 
 import "../css/Cart.css";
 
-// ** Notes **
+// Notes
 // The Cart Component gets its context from context.js
 // componentDidMount gets the cart total from context
 // A conditional statement renders div if cart is empty

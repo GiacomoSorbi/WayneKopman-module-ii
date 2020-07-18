@@ -1,11 +1,21 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import "./css/Header.css";
+
+// Imports DataContext to the header
+import { DataContext } from "./Context";
+
+// imports all required images and icons for the header
 import Menu from "./svg/bars-solid.svg";
 import Cart from "./svg/shopping-cart-solid.svg";
 import Close from "./svg/times-solid.svg";
 import Logo from "./svg/SocietyCoffee-Logo-Web.svg";
-import { Link } from "react-router-dom";
-import "./css/Header.css";
-import { DataContext } from "./Context";
+
+// Notes
+// Header function returns the Top Nav
+// The responsive menu toggle state is set to false by default
+// menuToggle toggles the responsive menu
+// {cart.length} checks how many items are in the cart and displays on the cart icon
 
 export class Header extends Component {
   static contextType = DataContext;

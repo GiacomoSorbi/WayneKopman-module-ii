@@ -1,8 +1,14 @@
 import React from "react";
 import "../css/About.css";
 import { Link } from "react-router-dom";
+
+// Imports the About is image and About Hero component
 import Aboutus from "./../../assets/About-us.png";
 import AboutHero from "./../AboutHero";
+
+// Notes
+// The About function return the About page when called, and uses props
+//<AboutHero /> loads the Hero image within the section
 
 function About(props) {
   return (

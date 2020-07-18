@@ -7,11 +7,14 @@ import "./app.css";
 import Header from "./components/Header";
 import Section from "./components/Section";
 import Footer from "./components/Footer";
+
+// DataProvider needs to be imported into the App.js
 import { DataProvider } from "./components/Context";
 
-//Test
-
-//This function exports the various components that make up the website. This includes the Header, section or body and the Footer
+// Notes
+// The App function exports the main components that make up the website. This includes the Header, section or body Footer
+// The main site components are wrapped in <DataProvider> giving all the elements access
+// StrictMode does not render visible UI. It does additional checks and warnings for its descendants
 
 function App(props) {
   return (
