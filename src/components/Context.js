@@ -16,6 +16,7 @@ import Colombia from "./product-images/Coffee-Bags-Flags-Colombia.png";
 // A conditional statement renders a message if the item is already in the cart.
 // There are functions that decrease and increase the quantity of an item in cart
 // DataContext.Provider is passed to the children using a prop
+// localStorage.getItem uses local storage to store items in cart
 
 export const DataContext = React.createContext();
 

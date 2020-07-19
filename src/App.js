@@ -8,7 +8,7 @@ import Header from "./components/Header";
 import Section from "./components/Section";
 import Footer from "./components/Footer";
 
-// DataProvider needs to be imported into the App.js
+// DataProvider is imported into the App.js
 import { DataProvider } from "./components/Context";
 
 // Notes

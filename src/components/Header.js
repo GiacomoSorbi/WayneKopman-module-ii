@@ -14,7 +14,7 @@ import Logo from "./svg/SocietyCoffee-Logo-Web.svg";
 // Notes
 // Header function returns the Top Nav
 // The responsive menu toggle state is set to false by default
-// menuToggle toggles the responsive menu
+// menuToggle toggles the state of the responsive menu
 // {cart.length} checks how many items are in the cart and displays on the cart icon
 
 export class Header extends Component {

@@ -3,6 +3,7 @@ import "../css/Homepage.css";
 import { Link } from "react-router-dom";
 import Colombia from "./../product-images/Coffee-Bags-Flags-Colombia.png";
 
+// Imports the HomePage Hero component
 import HomepageHero from "./../HomepageHero";
 
 const Homepage = (props) => {
