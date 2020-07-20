@@ -49,7 +49,6 @@ a:hover {
 .main {
   width: 100%;
   height: calc(100% - 6.5rem);
-  /*max-width: 1920px;*/
   padding: 0;
   margin: 0 auto;
 }
@@ -79,7 +78,6 @@ h5 {
 
 p {
   line-height: 1.5;
-
   font-size: 18px;
 }
 
@@ -103,11 +101,3 @@ button:hover {
   text-decoration: none;
   color: black;
 }
-
-/*.section {
-  flex: 1 0 auto;
-}
-
-.footer {
-  flex-shrink: 0;
-}*/
