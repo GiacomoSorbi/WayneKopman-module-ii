@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/WayneKopman-module-ii/static/css/main.aa986c61.chunk.css",
-    "main.js": "/WayneKopman-module-ii/static/js/main.8bd85250.chunk.js",
-    "main.js.map": "/WayneKopman-module-ii/static/js/main.8bd85250.chunk.js.map",
+    "main.css": "/WayneKopman-module-ii/static/css/main.55f43482.chunk.css",
+    "main.js": "/WayneKopman-module-ii/static/js/main.b03d2d8c.chunk.js",
+    "main.js.map": "/WayneKopman-module-ii/static/js/main.b03d2d8c.chunk.js.map",
     "runtime-main.js": "/WayneKopman-module-ii/static/js/runtime-main.0ab055a9.js",
     "runtime-main.js.map": "/WayneKopman-module-ii/static/js/runtime-main.0ab055a9.js.map",
-    "static/js/2.798ce9a3.chunk.js": "/WayneKopman-module-ii/static/js/2.798ce9a3.chunk.js",
-    "static/js/2.798ce9a3.chunk.js.map": "/WayneKopman-module-ii/static/js/2.798ce9a3.chunk.js.map",
+    "static/js/2.b8348ce7.chunk.js": "/WayneKopman-module-ii/static/js/2.b8348ce7.chunk.js",
+    "static/js/2.b8348ce7.chunk.js.map": "/WayneKopman-module-ii/static/js/2.b8348ce7.chunk.js.map",
     "index.html": "/WayneKopman-module-ii/index.html",
-    "precache-manifest.4523e68818fb09ef9210b6ac1bb4c070.js": "/WayneKopman-module-ii/precache-manifest.4523e68818fb09ef9210b6ac1bb4c070.js",
+    "precache-manifest.da471127c6e7c63958b67474a18c1e73.js": "/WayneKopman-module-ii/precache-manifest.da471127c6e7c63958b67474a18c1e73.js",
     "service-worker.js": "/WayneKopman-module-ii/service-worker.js",
-    "static/css/main.aa986c61.chunk.css.map": "/WayneKopman-module-ii/static/css/main.aa986c61.chunk.css.map",
-    "static/js/2.798ce9a3.chunk.js.LICENSE.txt": "/WayneKopman-module-ii/static/js/2.798ce9a3.chunk.js.LICENSE.txt",
+    "static/css/main.55f43482.chunk.css.map": "/WayneKopman-module-ii/static/css/main.55f43482.chunk.css.map",
+    "static/js/2.b8348ce7.chunk.js.LICENSE.txt": "/WayneKopman-module-ii/static/js/2.b8348ce7.chunk.js.LICENSE.txt",
     "static/media/About-Hero-Bean-Bush.jpg": "/WayneKopman-module-ii/static/media/About-Hero-Bean-Bush.09ac7095.jpg",
     "static/media/About-us.png": "/WayneKopman-module-ii/static/media/About-us.d4b448ce.png",
     "static/media/Coffee-Bags-Flags-Brazil.png": "/WayneKopman-module-ii/static/media/Coffee-Bags-Flags-Brazil.bd86e862.png",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0ab055a9.js",
-    "static/js/2.798ce9a3.chunk.js",
-    "static/css/main.aa986c61.chunk.css",
-    "static/js/main.8bd85250.chunk.js"
+    "static/js/2.b8348ce7.chunk.js",
+    "static/css/main.55f43482.chunk.css",
+    "static/js/main.b03d2d8c.chunk.js"
   ]
 }
